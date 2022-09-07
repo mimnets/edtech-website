@@ -19,7 +19,7 @@
   <!-- header starts -->
   <header class="container">
     <!-- navbar starts -->
-    <nav class="navbar navbar-expand-lg bg-light mx-5 px-5 mb-2">
+    <nav class="navbar navbar-expand-lg bg-light mx-5 px-5 mb-2 fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand fw-bolder" href="#">Pro Edu</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -32,22 +32,22 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#ourcourses">Courses</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">Deals</a>
+              <a class="nav-link" href="#elearning">E-Learnin</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">Success</a>
+              <a class="nav-link" href="#student">Success</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#aboutus">About</a>
             </li>
             <li class="nav-item px-2">
-              <a class="nav-link" href="#">Register</a>
+              <a class="nav-link" href="#readyjoin">Register</a>
             </li>
           </ul>
-          <button class="btn btn-outline-primary" type="submit">Register</button>
+          <button class="btn btn-outline-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Register</button>
         </div>
       </div>
     </nav>
@@ -102,7 +102,7 @@
   <!-- Main stat  -->
   <main class="container-fluid">
     <!-- Our Courses Start-->
-    <section>
+    <section id="ourcourses">
       <div class="text-center my-5">
         <h1>Discover Our Popular <br> Courses</h1>
         <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
@@ -197,7 +197,7 @@
     </section>
     <!-- Our Courses End -->
     <!-- Explore E-learning start -->
-      <section class="container">
+      <section class="container" id="elearning">
         <div class="card my-5 border-0 flex-row align-items-center ms-5 ps-5" style="max-width: 900px;">
             <div class="col-md-6">
               <img src="./images/working.png" class="img-fluid rounded-start" alt="...">
@@ -230,7 +230,7 @@
       </section>
     <!-- Explore E-learning Ends -->
     <!-- ready to join start -->
-    <section class="container ready-join-container my-5 py-5">
+    <section class="container ready-join-container my-5 py-5" id="readyjoin">
       <div class="bg-primary d-flex flex-row align-items-center justify-content-around rounded-2">
         <div class="col-6 py-5">
           <h1 style="color: white;">Ready to join?</h1>
@@ -271,7 +271,7 @@
     </section>
     <!-- ready to join end  -->
     <!-- successful student start -->
-    <section class="container carousel-container mb-5">
+    <section class="container carousel-container mb-5" id="student">
         <div class="my-5">
           <h1>Meet Our Successfull <br> Students</h1>
           <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
@@ -308,7 +308,7 @@
         </div>
         <div class="text-center m-5"><button class="btn btn-primary">View All</button></div>
     </section>
-    <!-- successful student start -->
+    <!-- successful student end -->
     <!-- some students feedback start -->
       <section class="container carousel-container my-5">
         <div>
@@ -363,7 +363,7 @@
       </section>
     <!-- some students feedback end -->
     <!-- frequestly ask question start -->
-      <section class="container carousel-container my-5">
+      <section class="container carousel-container my-5" id="aboutus">
         <div>
           <div class="text-center my-5">
             <h1>Frequently Asked Questions</h1>
