@@ -22,3 +22,11 @@
     width: 150px;
     height: 50px;
 }
+
+footer{
+    background-color: #161616;
+    height: 400px;
+}
+.flink{
+    text-decoration: none;
+}
